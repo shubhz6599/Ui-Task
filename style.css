@@ -1,0 +1,106 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header Section */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: linear-gradient(to right, #00274d, #00509e);
+    color: white;
+}
+
+/* Logo Styling */
+.header .logo {
+    position: relative;
+    display: inline-block;
+}
+
+/* Add a light background behind the logo text */
+.header .logo img {
+    max-height: 50px;
+    background-color: rgba(255, 255, 255, 0.8);
+    /* Light semi-transparent background */
+    border-radius: 5px;
+    /* Optional: Rounded corners */
+    padding: 5px;
+    /* Optional: Adds spacing around the logo */
+}
+
+/* Navigation Links */
+.header .nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.header .nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Optional: Text Shadow for the Logo Text */
+.logo-text {
+    color: black;
+    text-shadow: 1px 1px 2px white;
+    /* Adds a subtle glow to improve visibility */
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 50px;
+    background: linear-gradient(to bottom, #00509e, #e3f2fd);
+    color: white;
+}
+
+.hero .btn {
+    background: #00274d;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Features Section */
+.features {
+    text-align: center;
+    padding: 50px;
+    background: linear-gradient(to bottom, #e3f2fd, #00509e);
+    color: #00274d;
+}
+
+.features .feature-list {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.features .feature-item {
+    width: 30%;
+    background: #00509e;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Testimonials Section */
+.testimonials {
+    text-align: center;
+    padding: 50px;
+    background: linear-gradient(to bottom, #00509e, #e3f2fd);
+    color: #00274d;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: #00274d;
+    color: white;
+}
